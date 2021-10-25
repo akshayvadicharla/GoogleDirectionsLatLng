@@ -1,4 +1,4 @@
-# Google-Direcctions
+# Location Simulator
 Spring Application whcih takes LatLng pairs of two locations A & B and returns the ‘real’ points on the route that connects A & B with some distance(x) between them. 
 
 
