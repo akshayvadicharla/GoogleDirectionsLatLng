@@ -6,8 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-//@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class,
-        //DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 public class GoogleDirectionsApplication {
 
     public static void main(String[] args) {
