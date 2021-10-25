@@ -30,6 +30,7 @@ Spring Application whcih takes LatLng pairs of two locations A & B and returns t
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#build and load">Build&Run with IntelliJ</a></li>
+    <li><a href="#results">Results</a></li>
   </ol>
 </details>
 
@@ -92,6 +93,13 @@ Open IntelliJ:
 4) Then send the request using postman (Shared curl)
 <img width="1407" alt="LatLngRequest" src="https://user-images.githubusercontent.com/54843732/138640264-acf7e81b-d87c-4290-9976-1af6db4787b7.png">
 5) Result will be in the form of list of LatLng pairs.
+
+
+<!-- RESULTS -->
+## Results : 
+<img width="1433" alt="result1" src="https://user-images.githubusercontent.com/54843732/138645603-abb30d00-4cb9-4294-9f93-cb9fe959af48.png">
+<img width="1436" alt="result2" src="https://user-images.githubusercontent.com/54843732/138645746-aa8ddea8-7dd6-4e8b-95a4-74b137c4b53f.png">
+
 
 
 
