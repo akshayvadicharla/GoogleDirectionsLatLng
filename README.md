@@ -29,7 +29,7 @@ Spring Application whcih takes LatLng pairs of two locations A & B and returns t
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#build and load">Build&Run with ghpages</a></li>
+    <li><a href="#build and load">Build&Run with IntelliJ</a></li>
   </ol>
 </details>
 
