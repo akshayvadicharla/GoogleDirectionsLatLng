@@ -20,13 +20,16 @@ import java.util.List;
 @Service
 @Slf4j
 public class PolylineService {
+    
+    @Value("${X_API_KEY}")
+    private String xApiKey;
 
     public ArrayList<LatLng> getList(Double originLat, Double originLng, Double destLat, Double destLng, Integer distance) throws ApiException, IOException {
     String origin = originLat.toString()+","+originLng.toString();
     String dest = destLat.toString() + "," + destLng.toString();
     List<LatLng> path = new ArrayList();
     GeoApiContext context = new GeoApiContext.Builder()
-            .apiKey("AIzaSyAEQvKUVouPDENLkQlCF6AAap1Ze-6zMos")
+            .apiKey(xApiKey)
             .build();
     DirectionsApiRequest req = DirectionsApi.getDirections(context, origin, dest);
         DirectionsResult res = null;
