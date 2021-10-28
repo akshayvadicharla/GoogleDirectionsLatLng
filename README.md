@@ -61,7 +61,7 @@ To get started please install the below:
 <!-- USAGE EXAMPLES -->
 ## Postman Curls : 
 
- curl --location --request GET 'http://localhost:8023/directions/lat-lng?origin_lat=12.93175&destination_lat=12.92662&distance=50&origin_lng=77.62872&destination_lng=77.63696'
+ curl --location --request GET 'http://localhost:8023/directions?origin_lat=12.93175&destination_lat=12.92662&distance=50&origin_lng=77.62872&destination_lng=77.63696'
 
 How the application will be used is explained below:
 1) After Successful cloning of project in to IntelliJ hit from postman specifying desired A and B latlng pairs and distance at which we require the LatLng points.
