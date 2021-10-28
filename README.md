@@ -65,8 +65,7 @@ To get started please install the below:
 
 How the application will be used is explained below:
 1) After Successful cloning of project in to IntelliJ hit from postman specifying desired A and B latlng pairs and distance at which we require the LatLng points.
-<img width="1407" alt="LatLngRequest" src="https://user-images.githubusercontent.com/54843732/138638863-7555782d-d9df-472c-b556-c6cb3d31a7f0.png">
-
+<img width="1440" alt="Screen Shot 2021-10-28 at 11 29 32 PM" src="https://user-images.githubusercontent.com/54843732/139310654-02b1c367-0b15-4f82-9260-93296262bfa8.png">
 **NOTE:**
 JDK Required 1.8
 
@@ -91,7 +90,8 @@ Open IntelliJ:
 3) Build and Run the Application
 <img width="1432" alt="BuildRun" src="https://user-images.githubusercontent.com/54843732/138640206-cbd0b230-99f0-4227-8532-94d897582102.png">
 4) Then send the request using postman (Shared curl)
-<img width="1407" alt="LatLngRequest" src="https://user-images.githubusercontent.com/54843732/138640264-acf7e81b-d87c-4290-9976-1af6db4787b7.png">
+ <img width="1440" alt="Screen Shot 2021-10-28 at 11 29 32 PM" src="https://user-images.githubusercontent.com/54843732/139310273-147844a2-462d-4e86-83e1-3ac27a8eb701.png">
+
 5) Result will be in the form of list of LatLng pairs.
 
 
